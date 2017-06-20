@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PSU_CONNECTOR
+D Connector BUS ISA 8 Bits
+K ISA
+$ENDCMP
+#
+#End Doc Library
