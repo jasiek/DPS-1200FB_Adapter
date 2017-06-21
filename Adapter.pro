@@ -39,7 +39,7 @@ LabSize=60
 version=1
 LibDir=
 [eeschema/libraries]
-LibName1=Adapter-rescue
+LibName1=psu_connector
 LibName2=power
 LibName3=device
 LibName4=transistors
@@ -132,4 +132,4 @@ LibName90=Worldsemi
 LibName91=Xicor
 LibName92=zetex
 LibName93=Zilog
-LibName94=psu_connector
+
