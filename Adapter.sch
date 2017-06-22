@@ -107,29 +107,29 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 3900 4200 2    60   Input ~ 0
+Text GLabel 3450 4100 2    60   Input ~ 0
 12V
 Text GLabel 1300 2200 0    60   Input ~ 0
 12V
 Text GLabel 1300 3500 0    60   Input ~ 0
 RTN
-Text GLabel 3900 2900 2    60   Input ~ 0
+Text GLabel 3450 2800 2    60   Input ~ 0
 RTN
-Text GLabel 3700 2600 2    60   Input ~ 0
+Text GLabel 3250 2500 2    60   Input ~ 0
 12VSB
-Text GLabel 4300 2800 3    60   Input ~ 0
+Text GLabel 3850 2700 3    60   Input ~ 0
 PSINTERRUPT
-Text GLabel 3650 2100 2    60   Input ~ 0
+Text GLabel 1550 5200 0    60   Input ~ 0
 SCL
 Text GLabel 1000 5100 0    60   Input ~ 0
 SDA
-Text GLabel 3900 2200 2    60   Input ~ 0
+Text GLabel 3450 2100 2    60   Input ~ 0
 PSON
 Text GLabel 1300 4700 0    60   Input ~ 0
 ADDR
 Text GLabel 1300 5000 0    60   Input ~ 0
 GND
-Text GLabel 3900 2400 2    60   Input ~ 0
+Text GLabel 3450 2300 2    60   Input ~ 0
 PSOK
 $Comp
 L LED D1
@@ -284,17 +284,6 @@ F 2 "Buttons_Switches_THT:SW_PUSH" H 5300 3800 50  0001 C CNN
 F 3 "" H 5300 3800 50  0001 C CNN
 	1    5300 3800
 	0    1    1    0   
-$EndComp
-$Comp
-L PSU_CONNECTOR-RESCUE-Adapter J1
-U 1 1 5949B0F8
-P 2600 3600
-F 0 "J1" H 2600 5275 50  0000 C CNN
-F 1 "PSU_CONNECTOR" H 2600 1925 50  0000 C CNN
-F 2 "psu_connector:COMMON_SLOT_PSU" H 2600 3600 50  0001 C CNN
-F 3 "" H 2600 3600 50  0001 C CNN
-	1    2600 3600
-	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	4600 1600 4800 1600
@@ -603,77 +592,77 @@ Wire Wire Line
 	1300 3500 1700 3500
 Connection ~ 1600 3500
 Wire Wire Line
-	3500 2800 3600 2800
+	3050 2700 3150 2700
 Wire Wire Line
-	3600 2800 3600 4000
+	3150 2700 3150 3900
 Wire Wire Line
-	3600 4000 3500 4000
+	3150 3900 3050 3900
 Wire Wire Line
-	3500 4100 3600 4100
+	3050 4000 3150 4000
 Wire Wire Line
-	3600 4100 3600 5100
+	3150 4000 3150 5200
 Wire Wire Line
-	3600 5100 3500 5100
+	3150 5000 3050 5000
 Wire Wire Line
-	3500 2900 3900 2900
-Connection ~ 3600 2900
+	3050 2800 3450 2800
+Connection ~ 3150 2800
 Wire Wire Line
-	3500 3000 3600 3000
-Connection ~ 3600 3000
+	3050 2900 3150 2900
+Connection ~ 3150 2900
 Wire Wire Line
-	3500 3100 3600 3100
-Connection ~ 3600 3100
+	3050 3000 3150 3000
+Connection ~ 3150 3000
 Wire Wire Line
-	3500 3200 3600 3200
-Connection ~ 3600 3200
+	3050 3100 3150 3100
+Connection ~ 3150 3100
 Wire Wire Line
-	3500 3300 3600 3300
-Connection ~ 3600 3300
+	3050 3200 3150 3200
+Connection ~ 3150 3200
 Wire Wire Line
-	3500 3400 3600 3400
-Connection ~ 3600 3400
+	3050 3300 3150 3300
+Connection ~ 3150 3300
 Wire Wire Line
-	3500 3500 3600 3500
-Connection ~ 3600 3500
+	3050 3400 3150 3400
+Connection ~ 3150 3400
 Wire Wire Line
-	3500 3600 3600 3600
-Connection ~ 3600 3600
+	3050 3500 3150 3500
+Connection ~ 3150 3500
 Wire Wire Line
-	3500 3700 3600 3700
-Connection ~ 3600 3700
+	3050 3600 3150 3600
+Connection ~ 3150 3600
 Wire Wire Line
-	3500 3800 3600 3800
-Connection ~ 3600 3800
+	3050 3700 3150 3700
+Connection ~ 3150 3700
 Wire Wire Line
-	3500 3900 3600 3900
-Connection ~ 3600 3900
+	3050 3800 3150 3800
+Connection ~ 3150 3800
 Wire Wire Line
-	3500 4200 3900 4200
-Connection ~ 3600 4200
+	3050 4100 3450 4100
+Connection ~ 3150 4100
 Wire Wire Line
-	3500 4300 3600 4300
-Connection ~ 3600 4300
+	3050 4200 3150 4200
+Connection ~ 3150 4200
 Wire Wire Line
-	3500 4400 3600 4400
-Connection ~ 3600 4400
+	3050 4300 3150 4300
+Connection ~ 3150 4300
 Wire Wire Line
-	3500 4500 3600 4500
-Connection ~ 3600 4500
+	3050 4400 3150 4400
+Connection ~ 3150 4400
 Wire Wire Line
-	3500 4600 3600 4600
-Connection ~ 3600 4600
+	3050 4500 3150 4500
+Connection ~ 3150 4500
 Wire Wire Line
-	3500 4700 3600 4700
-Connection ~ 3600 4700
+	3050 4600 3150 4600
+Connection ~ 3150 4600
 Wire Wire Line
-	3500 4800 3600 4800
-Connection ~ 3600 4800
+	3050 4700 3150 4700
+Connection ~ 3150 4700
 Wire Wire Line
-	3500 4900 3600 4900
-Connection ~ 3600 4900
+	3050 4800 3150 4800
+Connection ~ 3150 4800
 Wire Wire Line
-	3500 5000 3600 5000
-Connection ~ 3600 5000
+	3050 4900 3150 4900
+Connection ~ 3150 4900
 Wire Wire Line
 	1700 4700 1300 4700
 Wire Wire Line
@@ -681,17 +670,15 @@ Wire Wire Line
 Wire Wire Line
 	1000 5100 1700 5100
 Wire Wire Line
-	3650 2100 3500 2100
+	3050 2100 3450 2100
 Wire Wire Line
-	3500 2200 3900 2200
+	3050 2300 3450 2300
 Wire Wire Line
-	3500 2400 3900 2400
+	3250 2500 3050 2500
 Wire Wire Line
-	3700 2600 3500 2600
+	3050 2600 3850 2600
 Wire Wire Line
-	3500 2700 4300 2700
-Wire Wire Line
-	4300 2700 4300 2800
+	3850 2600 3850 2700
 $Comp
 L CONN_01X03 J9
 U 1 1 594AC72C
@@ -822,4 +809,23 @@ Connection ~ 2100 6900
 Wire Wire Line
 	2200 7100 2200 6900
 Connection ~ 2200 6900
+$Comp
+L PSU_CONNECTOR J1
+U 1 1 594BC644
+P 2600 3600
+F 0 "J1" H 2600 5275 50  0000 C CNN
+F 1 "PSU_CONNECTOR" H 2600 1700 50  0000 C CNN
+F 2 "psu_connector:COMMON_SLOT_PSU" H 2150 3600 50  0001 C CNN
+F 3 "" H 2150 3600 50  0001 C CNN
+	1    2600 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 5200 3050 5200
+Connection ~ 3150 5000
+Wire Wire Line
+	3050 5100 3150 5100
+Connection ~ 3150 5100
+Wire Wire Line
+	1550 5200 1700 5200
 $EndSCHEMATC
